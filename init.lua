@@ -214,6 +214,7 @@ require('lazy').setup({
         ['<leader>g'] = { name = '[G]it', _ = 'which_key_ignore' },
         ['<leader>t'] = { name = '[T]erminal', _ = 'which_key_ignore' },
         ['<leader>gh'] = { name = '[G]it [H]unk', _ = 'which_key_ignore' },
+        ['<leader>S'] = { name = '[S]ession', _ = 'which_key_ignore' },
       }
       -- visual mode
       require('which-key').register({
